@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.7.0](https://github.com/taikoxyz/taiko-mono/compare/taiko-mono-v0.6.0...taiko-mono-v0.7.0) (2023-02-17)
+
+
+### Features
+
+* **protocol:** Additional integration tests, solidity bump, reduce TokenVault contract size ([#13155](https://github.com/taikoxyz/taiko-mono/issues/13155)) ([ffdf5db](https://github.com/taikoxyz/taiko-mono/commit/ffdf5db675404d463850fca0b97d37c23cde61a1))
+* **protocol:** make custom errors in L1 libs a part of the `TaikoL1.sol`'s ABI ([#13166](https://github.com/taikoxyz/taiko-mono/issues/13166)) ([2943e3e](https://github.com/taikoxyz/taiko-mono/commit/2943e3eeb18c12e5489c8974df6556caadfcb099))
+* **repo:** require scope on pr title lint ([#13160](https://github.com/taikoxyz/taiko-mono/issues/13160)) ([e2b41b2](https://github.com/taikoxyz/taiko-mono/commit/e2b41b2fa9ba601a405b023a0ffcd2ad2c9ff27b))
+* **website:** add alpha-1 shutdown banner ([#13159](https://github.com/taikoxyz/taiko-mono/issues/13159)) ([ce64a6f](https://github.com/taikoxyz/taiko-mono/commit/ce64a6fc3acb69821458efb098b3bb49665f1a1e))
+
+
+### Bug Fixes
+
+* **protocol:** use prevrandao for L2 mixHash ([#13157](https://github.com/taikoxyz/taiko-mono/issues/13157)) ([93daca4](https://github.com/taikoxyz/taiko-mono/commit/93daca47e11c31192aaa7f6db93d399a215164ad))
+* **relayer:** estimate gas, now that gas estimation works again ([#13176](https://github.com/taikoxyz/taiko-mono/issues/13176)) ([b7ae677](https://github.com/taikoxyz/taiko-mono/commit/b7ae677ec2d84dce3e3ae50d369bf31dedc547c3))
+* **website:** fix darkmode bug on docs website ([#13101](https://github.com/taikoxyz/taiko-mono/issues/13101)) ([a6d9bed](https://github.com/taikoxyz/taiko-mono/commit/a6d9bed01ca2684e66f5f4aa045655938ab4b9f5))
+* **website:** revert auto-fetch blog posts on home page ([#13169](https://github.com/taikoxyz/taiko-mono/issues/13169)) ([ce7329a](https://github.com/taikoxyz/taiko-mono/commit/ce7329a90158093933a6878f37f2b664494a8916))
+
 ## [0.6.0](https://github.com/taikoxyz/taiko-mono/compare/taiko-mono-v0.5.0...taiko-mono-v0.6.0) (2023-02-15)
 
 

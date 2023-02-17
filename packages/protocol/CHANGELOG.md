@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.4.0](https://github.com/taikoxyz/taiko-mono/compare/protocol-v0.3.0...protocol-v0.4.0) (2023-02-17)
+
+
+### Features
+
+* **protocol:** Additional integration tests, solidity bump, reduce TokenVault contract size ([#13155](https://github.com/taikoxyz/taiko-mono/issues/13155)) ([ffdf5db](https://github.com/taikoxyz/taiko-mono/commit/ffdf5db675404d463850fca0b97d37c23cde61a1))
+* **protocol:** make custom errors in L1 libs a part of the `TaikoL1.sol`'s ABI ([#13166](https://github.com/taikoxyz/taiko-mono/issues/13166)) ([2943e3e](https://github.com/taikoxyz/taiko-mono/commit/2943e3eeb18c12e5489c8974df6556caadfcb099))
+
+
+### Bug Fixes
+
+* **protocol:** use prevrandao for L2 mixHash ([#13157](https://github.com/taikoxyz/taiko-mono/issues/13157)) ([93daca4](https://github.com/taikoxyz/taiko-mono/commit/93daca47e11c31192aaa7f6db93d399a215164ad))
+
 ## [0.3.0](https://github.com/taikoxyz/taiko-mono/compare/protocol-v0.2.0...protocol-v0.3.0) (2023-02-15)
 
 
